@@ -108,6 +108,13 @@ article {
     padding-bottom: 1.5rem; /* Espaçamento interno inferior */
 }
 
+article .poster {
+    width: 100px;
+    float: left;
+    margin-right: 1rem;
+    border-radius: 8px;
+}
+
 article:hover {
     transform: scale(1.01); /* Aumenta ligeiramente o tamanho ao passar o mouse */
     cursor: pointer; /* Muda o cursor para uma mão */
@@ -178,7 +185,7 @@ article a:hover {
 }
 
 .footer-links a:hover {
-    color: var(--accent-color); /* Muda a cor do link ao passar o mouse (variável não definida) */
+    color: var(--primary-color); /* Muda a cor do link ao passar o mouse */
 }
 
 @media (max-width: 768px) {
@@ -238,4 +245,3 @@ article a:hover {
         margin-top: 1rem; /* Adiciona margem no topo */
     }
 }
-
